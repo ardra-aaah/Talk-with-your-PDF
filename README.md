@@ -4,12 +4,12 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot that uses PDF doc
 
 **Requirements**
 
-Python 3.8+
-Streamlit
-LangChain Core
-LangChain Community
-LangChain MistralAI
-PDFPlumber
+Python 3.8+, 
+Streamlit, 
+LangChain Core, 
+LangChain Community, 
+LangChain MistralAI, 
+PDFPlumber, 
 LangChain Chroma
 
 **Installation**
