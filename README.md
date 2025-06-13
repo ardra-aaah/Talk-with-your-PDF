@@ -4,7 +4,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot that uses PDF doc
 
 **Requirements**
 
-Python 3.8+, 
+Python 3.8+,
 Streamlit, 
 LangChain Core, 
 LangChain Community, 
@@ -41,9 +41,9 @@ Upload a PDF document using the file uploader in the Streamlit interface.Once th
 **Project Structure**
 
 app.py: Main application file. <br/>
-requirements.txt: List of required Python packages.
-pdf/: Directory to store uploaded PDF files.
-Chroma-DB/: Directory to store the Chroma vector store.
+requirements.txt: List of required Python packages.<br/>
+pdf/: Directory to store uploaded PDF files.<br/>
+Chroma-DB/: Directory to store the Chroma vector store.<br/>
 
 **License**
 
