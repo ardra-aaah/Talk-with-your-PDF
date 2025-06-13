@@ -40,7 +40,7 @@ Upload a PDF document using the file uploader in the Streamlit interface.Once th
 
 **Project Structure**
 
-app.py: Main application file.
+app.py: Main application file. <br/>
 requirements.txt: List of required Python packages.
 pdf/: Directory to store uploaded PDF files.
 Chroma-DB/: Directory to store the Chroma vector store.
