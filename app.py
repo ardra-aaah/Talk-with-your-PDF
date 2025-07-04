@@ -17,7 +17,7 @@ Context: {context}
 Answer:
 """
 if not os.environ.get("MISTRAL_API_KEY"):
-    os.environ["MISTRAL_API_KEY"] = getpass.getpass("Enter API key for Mistral AI: ")
+    os.environ["MISTRAL_API_KEY"] = getpass.getpass("<API KEY> ")
 
 pdfs_directory = './pdf/'
 
