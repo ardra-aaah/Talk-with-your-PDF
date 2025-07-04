@@ -1,8 +1,8 @@
-**RAG Chatbot**
+# TALK WITH YOUR PDF
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot that uses PDF documents as a knowledge base to answer user questions. The chatbot is built using Streamlit and various LangChain components.
 
-**Requirements**
+## Requirements
 
 Python 3.8+,
 Streamlit, 
@@ -12,7 +12,7 @@ LangChain MistralAI,
 PDFPlumber, 
 LangChain Chroma
 
-**Installation**
+## Installation
 
 Clone the repository:
 
@@ -24,7 +24,7 @@ Install the required packages:
 ```bash
 pip install -r requirements.txt
 ```
-**Usage**
+## Usage
 
 Set up your Mistral AI API key:
 ```bash
@@ -38,13 +38,13 @@ streamlit run app.py
 
 Upload a PDF document using the file uploader in the Streamlit interface.Once the document is indexed, you can ask questions based on the content of the uploaded PDF.
 
-**Project Structure**
+## Project Structure
 
 app.py: Main application file. <br/>
 requirements.txt: List of required Python packages.<br/>
 pdf/: Directory to store uploaded PDF files.<br/>
 Chroma-DB/: Directory to store the Chroma vector store.<br/>
 
-**License**
+## License
 
 This project is licensed under the MIT License.
